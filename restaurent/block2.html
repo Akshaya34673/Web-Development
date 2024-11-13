@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+<head>
+<style>
+    
+    .navbar {
+        height: 100px;
+        background-color:  rgb(175, 132, 24);
+        color: white;
+        display: flex;
+        align-items: center;
+        padding: 0 60px;
+    }
+    .content {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .image{
+        height: 90px;
+        border-radius: 50%;
+    }
+    .details {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        font-size: 20px;
+    }
+    .search-input {
+        padding: 5px;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap; 
+        margin: auto;
+        padding-top: 20px;
+        justify-content: center;
+    }
+    .box {
+        flex-basis: 23%; 
+        max-width: 23%;
+        margin-bottom: 20px; 
+    }
+    
+
+    .box-img {
+        height: 370px;
+        width: 290px;
+        overflow:hidden;
+        display:inline;
+    }
+
+    .header{
+        display: flex;
+        padding: 70px;
+        background-color: rgb(182, 177, 177);
+
+    }
+
+    .head-logo{
+        border-radius: 50%;
+        width: 290px;
+        height: 300px;
+    }
+    
+    
+    .text{
+        padding-left: 30px;
+    }
+    
+    .text1{
+        font-size: 50px;
+    }
+    .text2{
+        font-size: 25px;
+        
+    }
+
+    h2{
+        text-align: center;
+        font-size: 50px;
+    }
+    h3{
+        font-size: 20px;
+        cursor: pointer;
+    }
+    h3:hover{
+        border: 2px solid  rgb(255, 255, 255);
+    }
+    .border {
+        border: 1.5px solid transparent;
+        cursor:pointer;
+        transition: opacity 0.15s;
+ 
+        
+    }
+    .border:hover {
+        border: 2px solid rgb(255, 255, 255);  
+    }
+    
+</style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="content">
+                <div class="logo">
+                    <img class="image" src="logo.png" alt="Logo">
+                </div>
+                <div class="details">
+                    <p class="border">Home</p>
+                    <p class="border">About</p>
+                    <p class="border">Services</p>
+                    <p class="border">Contact</p>
+                    
+                    
+                </div>
+                <div class="search-icon">
+                    <input placeholder="Search" class="search-input">   
+                </div>  
+            </div>
+        </div>
+    </header>
+    
+    <div class="header">
+        <img class="head-logo" src="https://images.pexels.com/photos/18620325/pexels-photo-18620325/free-photo-of-metal-plate-with-roasted-chicken-and-rice-on-a-table.jpeg?auto=compress&cs=tinysrgb&w=600">
+        <div class="text">
+            <h1 class="text1">Biryani's</h1>
+            <p class="text2">Biryani, a symphony of flavors and aromas, is more than just a dish—it's an experience. Each grain of rice is infused with the richness of spices, the tenderness of marinated meat or vegetables, and the subtle warmth of saffron. The layers, meticulously arranged, tell a story of culinary artistry passed down through generations.</p>
+            
+        </div>
+    </div>
+    
+    
+    <h2>Delicious Biryani..</h2>
+    <div class="container">
+        <div class="box">
+            <div class="card-header">
+                <img class="box-img" src="https://static.wixstatic.com/media/91e241_25e8d84cab9849b6bd927f66ef18a9bf~mv2.jpg/v1/fill/w_925,h_925,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/91e241_25e8d84cab9849b6bd927f66ef18a9bf~mv2.jpg">
+                <p>$ 199.0</p>
+                <h3>Hyderabadi Chicken Dum Biryani</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="card-header">
+                <img class="box-img" src="https://static.wixstatic.com/media/91e241_06fe88a0d6ce42bda1ddce75234ea3a9~mv2.jpg/v1/fill/w_925,h_544,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/91e241_06fe88a0d6ce42bda1ddce75234ea3a9~mv2.jpg">
+                <p>$ 149.0</p>
+                <h3>Dundigal Biryani</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="card-header">
+                <img class="box-img" src="https://assets.zeezest.com/blogs/PROD_Id-1201-biryani-nonveg-indian-banner_1624630496269.jpg">
+                <p>$ 189.0</p>
+                <h3>Mutton Dum Biryani</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="card-header">
+                <img class="box-img" src="https://static.wixstatic.com/media/91e241_0807b60de0c04b448d4a7d3c9dde0b39~mv2.jpg/v1/fill/w_925,h_694,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/91e241_0807b60de0c04b448d4a7d3c9dde0b39~mv2.jpg">
+                <p>$ 179.0</p>
+                <h3>Bhatkali Biryani</h3>
+            </div>
+        </div>
+    </div>
+    
+        
+    </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+<head>
+<style>
+    
+    .navbar {
+        height: 100px;
+        background-color:  rgb(175, 132, 24);
+        color: white;
+        display: flex;
+        align-items: center;
+        padding: 0 60px;
+    }
+    .content {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .image{
+        height: 90px;
+        border-radius: 50%;
+    }
+    .details {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        font-size: 20px;
+    }
+    .search-input {
+        padding: 5px;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap; 
+        margin: auto;
+        padding-top: 20px;
+        justify-content: center;
+    }
+    .box {
+        flex-basis: 23%; 
+        max-width: 23%;
+        margin-bottom: 20px; 
+    }
+    
+
+    .box-img {
+        height: 370px;
+        width: 290px;
+        overflow:hidden;
+        display:inline;
+    }
+
+    .header{
+        display: flex;
+        padding: 70px;
+        background-color: rgb(182, 177, 177);
+
+    }
+
+    .head-logo{
+        border-radius: 50%;
+        width:200px;
+        height: 200px;
+    }
+    
+    
+    .text{
+        padding-left: 30px;
+    }
+    
+    .text1{
+        font-size: 50px;
+    }
+    .text2{
+        font-size: 25px;
+        
+    }
+
+    h2{
+        text-align: center;
+        font-size: 30px;
+    }
+    h3{
+        font-size: 20px;
+        cursor: pointer;
+    }
+    h3:hover{
+        border: 2px solid  rgb(255, 255, 255);
+    }
+    .border {
+        border: 1.5px solid transparent;
+        cursor:pointer;
+        transition: opacity 0.15s;
+ 
+        
+    }
+    .border:hover {
+        border: 2px solid rgb(255, 255, 255);  
+    }
+    
+</style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="content">
+                <div class="logo">
+                    <img class="image" src="logo.png" alt="Logo">
+                </div>
+                <div class="details">
+                    <p class="border">Home</p>
+                    <p class="border">About</p>
+                    <p class="border">Services</p>
+                    <p class="border">Contact</p>
+                    
+                    
+                </div>
+                <div class="search-icon">
+                    <input placeholder="Search" class="search-input">   
+                </div>  
+            </div>
+        </div>
+    </header>
+    
+    <div class="header">
+        <img class="head-logo" src="https://pinchofyum.com/wp-content/uploads/Winter-Grain-Bowl-400x400.jpg">
+        <div class="text">
+            <h1 class="text1">Healthy Food Stuff</h1>
+            <p class="text2">Maybe you're switching up some eating habits, maybe you're coming off a week of all cookies all the time, maybe you just have a bunch of kale to use up. Whatever the reason, here's the place to search all the healthy things!</p>
+        </div>
+    </div>
+    
+    
+    <h2>Top Rated Healthy Food Stuff</h2>
+    <div class="container">
+        <div class="box">
+            <div class="card-header">
+                <img class="box-img" src="https://pinchofyum.com/wp-content/uploads/Raw-Vegan-Carrot-Cake-Bites-400x400.jpg">
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>17 reviews / 5 Average</p>
+                <p>$ 99.0</p>
+                <h3>Raw Vegan Carrot Cake</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="card-header">
+                <img class="box-img" src="https://pinchofyum.com/wp-content/uploads/Coconut-Lime-Chicken-4-400x400.jpg">
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>23 reviews / 4.9 Average</p>
+                <p>$ 59.0</p>
+                <h3>Caconut Lime grilled chicken and rice</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="card-header">
+                <img class="box-img" src="https://pinchofyum.com/wp-content/uploads/Mushroom-Bowls-1-400x400.jpg">
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>28 reviews / 4.7 Average</p>
+                <p>$ 89.0</p>
+                <h3>Mushroom Bowls</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="card-header">
+                <img class="box-img" src="https://pinchofyum.com/wp-content/uploads/Chicken-Tikka-Masala-400x400.jpg">
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>30 reviews / 4.9 Average</p>
+                <p>$ 79.0</p>
+                <h3>Chicken Tikka Masala</h3>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    </div>
+</body>
+</html>

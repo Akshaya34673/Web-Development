@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+<head>
+<style>
+    
+    .navbar {
+        height: 100px;
+        background-color:  rgb(175, 132, 24);
+        color: white;
+        display: flex;
+        align-items: center;
+        padding: 0 60px;
+    }
+    .content {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .image{
+        height: 90px;
+        border-radius: 50%;
+    }
+    .details {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        font-size: 20px;
+    }
+    .search-input {
+        padding: 5px;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap; 
+        margin: auto;
+        padding-top: 20px;
+        justify-content: center;
+    }
+    .box {
+        flex-basis: 23%; 
+        max-width: 23%;
+        margin-bottom: 20px; 
+    }
+    
+
+    .box-img {
+        height: 370px;
+        width: 290px;
+        overflow:hidden;
+        display:inline;
+    }
+
+    .header{
+        display: flex;
+        padding: 70px;
+        background-color: rgb(182, 177, 177);
+
+    }
+
+    .head-logo{
+        border-radius: 50%;
+        width: 290px;
+        height: 300px;
+    }
+    
+    
+    .text{
+        padding-left: 30px;
+    }
+    
+    .text1{
+        font-size: 50px;
+    }
+    .text2{
+        font-size: 25px;
+        
+    }
+
+    h2{
+        text-align: center;
+        font-size: 50px;
+    }
+    h3{
+        font-size: 20px;
+        cursor: pointer;
+    }
+    h3:hover{
+        border: 2px solid  rgb(255, 255, 255);
+    }
+    .border {
+        border: 1.5px solid transparent;
+        cursor:pointer;
+        transition: opacity 0.15s;
+ 
+        
+    }
+    .border:hover {
+        border: 2px solid rgb(255, 255, 255);  
+    }
+    
+</style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="content">
+                <div class="logo">
+                    <img class="image" src="logo.png" alt="Logo">
+                </div>
+                <div class="details">
+                    <p class="border">Home</p>
+                    <p class="border">About</p>
+                    <p class="border">Services</p>
+                    <p class="border">Contact</p>
+                    
+                    
+                </div>
+                <div class="search-icon">
+                    <input placeholder="Search" class="search-input">   
+                </div>  
+            </div>
+        </div>
+    </header>
+    
+    <div class="header">
+        <img class="head-logo" src="https://images.pexels.com/photos/11719206/pexels-photo-11719206.jpeg?auto=compress&cs=tinysrgb&w=600">
+        <div class="text">
+            <h1 class="text1">DESSERTS</h1>
+            <p class="text2">Desserts are the sweet punctuation marks at the end of a meal, turning the ordinary into extraordinary. Whether it's a creamy scoop of gelato that melts like a dream, a slice of velvety cheesecake with a buttery crust, or a warm, gooey brownie topped with a dollop of ice cream, desserts have the power to transport us to a world of pure indulgence.</p>
+            
+        </div>
+    </div>
+    
+    
+    <h2>Tasty Desserts</h2>
+    <div class="container">
+        <div class="box">
+            <div class="card-header">
+                <img class="box-img" src="https://myfoodstory.com/wp-content/uploads/2024/08/Rasmalai-Cake-1-378x504.jpg">
+                <p>$ 99.0</p>
+                <h3>Rasmalai Cake</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="card-header">
+                <img class="box-img" src="https://myfoodstory.com/wp-content/uploads/2024/05/Chocolate-Sandwich-with-Banana-2-360x480.jpg">
+                <p>$ 49.0</p>
+                <h3>Grilled Nutella Banana Sandwich </h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="card-header">
+                <img class="box-img" src="https://myfoodstory.com/wp-content/uploads/2015/10/eggless-chocolate-brownies-1-360x480.jpg">
+                <p>$ 89.0</p>
+                <h3>Eggless Chocolate Brownies</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="card-header">
+                <img class="box-img" src="https://myfoodstory.com/wp-content/uploads/2020/05/Eggless-Mango-Cake-1-360x480.jpg">
+                <p>$ 79.0</p>
+                <h3>Eggless Mango Cake - soft and moist!</h3>
+            </div>
+        </div>
+    </div>
+    
+        
+    </div>
+
+    </div>
+</body>
+</html>
